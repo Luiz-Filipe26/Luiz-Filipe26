@@ -1,0 +1,15 @@
+Visual assets for the GitHub profile
+
+header.svg and header-mobile.svg: original typographic composition for this profile.
+document-symbol.svg: original document pictogram; editorial illustration, not an official ATXT logo.
+linkedin.svg: LinkedIn icon from Bootstrap Icons (MIT), https://github.com/twbs/icons/blob/main/icons/linkedin.svg ; original button composition.
+github.svg and instagram-icon.svg: icons from Simple Icons (CC0-1.0), https://github.com/simple-icons/simple-icons ; original button compositions.
+shellblocks-logo.svg: existing favicon copied unchanged from Luiz-Filipe26/ShellBlocks, frontend/src/assets/favicon.svg (source file credits SVG Repo).
+atxt-studio.png: screenshot of the public ATXT Studio, with a demonstration document entered for this profile.
+shellblocks-workspace.png: screenshot of the audited ShellBlocks build running locally, with a sample workspace imported through the application's own UI. No fabricated execution result.
+atxt-card.png and shellblocks-card.png: original HTML/CSS compositions using the above screenshots and symbols.
+
+Technology SVGs: Devicon (MIT), https://github.com/devicons/devicon , revision 32fe1d3b3f36ad11f90ab94f7db59738139c2bf6. Names and logos remain trademarks of their owners.
+Instagram gradient: original SVG background in the familiar Instagram color palette; existing Simple Icons glyph preserved.
+Header: original typographic composition, replacing the previous code illustration; no stock photography or third-party artwork used.
+Technology icons use original neutral background wrappers for legibility on both GitHub themes. The Devicon logo paths and colors are preserved.
