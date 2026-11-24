@@ -38,7 +38,7 @@ Meu foco é **desenvolvimento full stack com Java, Spring Boot, React e TypeScri
 </a>
 </p>
 
-**Do bloco visual à execução em Linux.** Comandos declarativos, validação contextual e AST própria, com backend Node.js que gerencia sandboxes Docker e seu ciclo de vida. A aplicação reúne progressão educacional, persistência e testes de integração. **Artigo aprovado e aplicação apresentada no Apps.Edu/CBIE 2026.**
+**Aprender linha de comando construindo e executando programas por blocos.** Comandos declarativos, validação contextual e AST própria, com backend Node.js que gerencia sandboxes Docker e seu ciclo de vida. A aplicação reúne progressão educacional, persistência e testes de integração. **Artigo aprovado e aplicação apresentada no Apps.Edu/CBIE 2026.**
 
 **[Abrir o ShellBlocks ↗](https://shellblocks.duckdns.org/)** · [Explorar o código](https://github.com/Luiz-Filipe26/ShellBlocks)
 
@@ -56,32 +56,54 @@ Meu foco é **desenvolvimento full stack com Java, Spring Boot, React e TypeScri
 
 ## Aplicações web
 
-### [Foodfy ↗](https://github.com/Luiz-Filipe26/Foodfy)
+### <img src="assets/projects/foodfy.svg" width="26" height="26" alt="" align="top"> [Foodfy ↗](https://github.com/Luiz-Filipe26/Foodfy)
+
 **Java · Spring Boot · PostgreSQL · Docker**
 
-Backend de restaurante com autenticação, cardápio, pedidos e estoque. APIs REST, JPA, comunicação entre serviços e testes. Projeto acadêmico em dupla, disponível no meu perfil como fork.
+Backend para gerenciar um restaurante, com autenticação, cardápio, pedidos e estoque. APIs REST, JPA, comunicação entre serviços e testes integram as funcionalidades do sistema. Projeto acadêmico em dupla, disponível no meu perfil como fork.
 
-### [TechPass ↗](https://github.com/Luiz-Filipe26/TechPass) · [Demo](https://luiz-filipe26.github.io/TechPass/)
+### <img src="assets/projects/techpass.svg" width="26" height="26" alt="" align="top"> [TechPass ↗](https://github.com/Luiz-Filipe26/TechPass) · [Demo](https://luiz-filipe26.github.io/TechPass/)
+
 **React · TypeScript · Interface e experiência de uso**
 
-Aplicação individual de eventos e ingressos, com seleção de assentos, loaders, Suspense e componentes reutilizáveis. Desenvolvida para IHC, com escopo frontend e serviços simulados.
+Da descoberta da programação de um evento à escolha de assentos e à compra simulada de ingressos. Desenvolvi a aplicação individualmente para IHC, com navegação por loaders, Suspense e componentes reutilizáveis. O foco é a experiência no frontend, com serviços simulados.
 
 ## Jogos, modelagem e C++
 
-### [MonstersClash ↗](https://github.com/Luiz-Filipe26/Monsters-Clash)
+### <img src="assets/projects/monstersclash.svg" width="26" height="26" alt="" align="top"> [MonstersClash ↗](https://github.com/Luiz-Filipe26/Monsters-Clash)
+
 **Kotlin · Android · MVVM · LiveData · SQLite**
 
-Projeto de jogo de cartas desenvolvido em dupla. Separei o estado da mão, o ViewModel e a apresentação reativa das cartas, com seleção por gestos e disposição em leque. O trabalho reúne modelagem, persistência local e uma interface construída para a interação por toque.
+Jogo de combate com cartas para Android, com uma mão interativa organizada em leque e seleção por gestos. Implementei todo o código-fonte, separando o estado da mão, o ViewModel e a apresentação reativa das cartas. A solução combina modelagem, persistência local e uma interface pensada para o toque.
 
-### [NavalBattle ↗](https://github.com/Luiz-Filipe26/NavalBattle)
+### <img src="assets/projects/navalbattle.svg" width="26" height="26" alt="" align="top"> [NavalBattle ↗](https://github.com/Luiz-Filipe26/NavalBattle)
+
 **C++17 · SFML · CMake**
 
 Batalha naval com interfaces de console e SFML sobre a mesma lógica. Ownership explícito com `unique_ptr`, transferência de recursos com `std::move` e uma interface polimórfica separam o jogo de sua apresentação. O bot usa uma máquina de estados para procurar e perseguir embarcações.
 
 ## Linguagens, dados e algoritmos
 
-- **[gtasa-save](https://github.com/Luiz-Filipe26/gtasa-save):** parser binário em TypeScript, com schemas declarativos para layouts, arrays dinâmicos e condições. Em desenvolvimento.
-- **[DeteccaoImagensIA](https://github.com/Luiz-Filipe26/DeteccaoImagensIA):** classificador de desenhos em Java, com rede neural e backpropagation implementados do zero, persistência do treinamento e interface Swing.
-- **[VSI Resolve](https://github.com/Luiz-Filipe26/vsi-resolve):** prova de conceito de distribuição nativa via WebAssembly e C, com contratos de ABI e gerenciamento de recursos de áudio.
+### <img src="assets/projects/gtasa-save.svg" width="26" height="26" alt="" align="top"> [gtasa-save ↗](https://github.com/Luiz-Filipe26/gtasa-save)
+
+**TypeScript · Formatos binários · Schemas declarativos**
+
+Um histórico versionado das partidas de GTA San Andreas: a proposta é acompanhar a evolução dos saves e comparar mudanças no estado do jogo, em vez de diferenças entre bytes sem contexto.
+
+O `gtasa-save-engine` já interpreta estruturas dos saves por schemas declarativos, com layouts, condições, arrays dinâmicos e validações. Essa base alimentará o `gtasa-chronicle`, ainda em estágio inicial, no qual estão planejados o acompanhamento dos arquivos, o histórico e a comparação semântica do progresso.
+
+### <img src="assets/projects/deteccao-imagens.svg" width="26" height="26" alt="" align="top"> [DeteccaoImagensIA ↗](https://github.com/Luiz-Filipe26/DeteccaoImagensIA)
+
+**Java · Redes neurais · Backpropagation · Swing**
+
+Uma aplicação para desenhar, reunir exemplos e treinar uma rede que distingue bonecos de palito de outros desenhos. Implementei o perceptron multicamadas e o backpropagation sem bibliotecas de machine learning, além da normalização espacial dos desenhos. A interface Swing permite experimentar o classificador e persistir os exemplos e o estado da rede.
+
+### <img src="assets/projects/vsi-resolve.svg" width="26" height="26" alt="" align="top"> [VSI Resolve ↗](https://github.com/Luiz-Filipe26/vsi-resolve)
+
+**WebAssembly · WASM64 · C/C++ · ABI semântica · Late linking**
+
+Uma arquitetura de distribuição de software que propõe entregar um único artefato intermediário, independente de processador e sistema operacional, e gerar o executável nativo na instalação. Uma ABI semântica descreve as operações de sistema; o resolvedor seleciona as implementações da plataforma de destino por *late linking*. O objetivo é executar a aplicação sem uma máquina virtual residente.
+
+O subsistema de áudio é a primeira prova de conceito funcional desse percurso, usando WASM64, wasm2c e C. Ele valida a base da proposta; a ampliação para outros subsistemas permanece em desenvolvimento.
 
 [Ver todos os repositórios →](https://github.com/Luiz-Filipe26?tab=repositories)

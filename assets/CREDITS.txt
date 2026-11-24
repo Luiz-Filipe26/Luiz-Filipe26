@@ -13,3 +13,5 @@ Technology SVGs: Devicon (MIT), https://github.com/devicons/devicon , revision 3
 Instagram gradient: original SVG background in the familiar Instagram color palette; existing Simple Icons glyph preserved.
 Header: original typographic composition, replacing the previous code illustration; no stock photography or third-party artwork used.
 Technology icons use original neutral background wrappers for legibility on both GitHub themes. The Devicon logo paths and colors are preserved.
+
+Project pictograms: Lucide (ISC), https://github.com/lucide-icons/lucide , revision c26ce5515667640ca2753e095ba319d225fc0d8d. Original colored wrappers; pictograms identify project subjects and are not project logos. See licenses/lucide.txt.
